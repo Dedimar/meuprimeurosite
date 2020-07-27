@@ -1,12 +1,74 @@
-body{
-    background-color: lawngreen;
+body {background-color: white;}
+
+img {padding-left: 200px;}
+
+.topo{background-color: cadetblue;
+position: fixed;
+padding:  10px;
+padding-right: 1000px;
 }
-div{
-    background-color: white;
-    padding: 10px;
-    display: -moz-deck;
+.icon-bar {
+  width: 90px; 
+  position: fixed;
+  background-color: 	#87CEEB; 
+
 }
-#t1{
-    font-family: georgia;
-    font-size: 30px;
+.icon-bar a {
+  display: block; 
+  text-align: center;
+  padding: 16px; 
+  transition: all 0.3s ease;
+  color: white; 
+  font-size: 36px; 
+}
+
+.icon-bar a:hover {
+  background-color: #000; 
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.ods{
+  padding-left: 100px;
+  padding-right: 500px;
+  color: black;
+}
+.rodape {
+  background-color: cadetblue;
+  display: grid;
+}
+.im2{display: inline;
+ padding-left: 10px;
+}
+
+#t2{color: darkblue;
+  padding-right: 300px;
+  padding-left: 200px;
+ }
+ 
+
+ #videos{
+   color: blue;
+   padding-left: 500px;
+ }
+#t1{color: darkblue;
+    padding-left: 100px;
+    padding-right: 0%;
+}
+#f1 {
+  color: lime;
+  padding-left: 100px;
+  
+}
+
+}
+#f2
+{color: indigo;
+padding-left : 1000px;
+display : inline;}
+
+#r1{
+  padding-left: 600px;
+  display: flow-root;
 }
