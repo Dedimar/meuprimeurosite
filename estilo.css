@@ -1,40 +1,12 @@
-body {background-color: white;}
-
-.topo{background-color: cadetblue;
-position: fixed;
-padding:  10px;
+body{
+    background-color: lawngreen;
 }
-
-#t1{color: darkblue;
-    padding-left: 100px;
-    padding-right: 0%;
+div{
+    background-color: white;
+    padding: 10px;
+    display: -moz-deck;
 }
-#f1 {
-  color: lime;
-  padding-left: 100px;
-  
-}
-#t2{color: darkblue;
- padding-right: 300px;
- padding-left: 200px;
-}
-img {padding-left: 200px;}
-.ods{
-  padding-left: 100px;
-  padding-right: 500px;
-  color: black;
-}
-.rodape {
-  background-color: cadetblue;
-  
-}
-.im2{
- padding-left: 10px;
-}
-.im3{
-  padding-left: 600px;
-}
-#f2 {
-  color: indigo;
-  padding-left: 1000px;
+#t1{
+    font-family: georgia;
+    font-size: 30px;
 }
